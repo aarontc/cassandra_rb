@@ -41,7 +41,7 @@ require 'cassandra_rb/constants'
 require 'cassandra_rb/debug' if ENV['DEBUG']
 
 begin
-  require "cassandra_native"
+  require "cassandra_rb_native"
 rescue LoadError
-  puts "Unable to load cassandra_native extension. Defaulting to pure Ruby libraries."
+  puts "Unable to load cassandra_rb_native extension. Defaulting to pure Ruby libraries."
 end

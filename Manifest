@@ -29,7 +29,7 @@ conf/1.1/cassandra.yaml
 conf/1.1/log4j-server.properties
 conf/1.1/schema.json
 conf/1.1/schema.txt
-ext/cassandra_native.c
+ext/cassandra_rb_native.c
 ext/extconf.rb
 lib/cassandra_rb.rb
 lib/cassandra_rb/0.6.rb

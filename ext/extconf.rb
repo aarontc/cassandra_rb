@@ -5,5 +5,5 @@ else
 
   $CFLAGS = "-g -O2 -Wall -Werror"
 
-  create_makefile 'cassandra_native'
+  create_makefile 'cassandra_rb_native'
 end

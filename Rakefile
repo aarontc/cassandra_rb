@@ -179,7 +179,7 @@ end
 
 task :pkg => [:fix_perms]
 
-Rake::ExtensionTask.new('cassandra_native') do |ext|
+Rake::ExtensionTask.new('cassandra_rb_native') do |ext|
   ext.ext_dir = 'ext'
 end
 

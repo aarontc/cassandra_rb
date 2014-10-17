@@ -3,7 +3,7 @@
 
 VALUE parts_ivar_id, types_ivar_id, hash_ivar_id;
 
-VALUE rb_cassandra_composite_fast_unpack(VALUE self, VALUE packed_string_value) {
+VALUE rb_cassandra_rb_composite_fast_unpack(VALUE self, VALUE packed_string_value) {
   int index = 0;
   int message_length = RSTRING_LEN(packed_string_value);
   char *packed_string = (char *)RSTRING_PTR(packed_string_value);
@@ -22,7 +22,7 @@ VALUE rb_cassandra_composite_fast_unpack(VALUE self, VALUE packed_string_value) 
   return Qnil;
 }
 
-VALUE rb_cassandra_dynamic_composite_fast_unpack(VALUE self, VALUE packed_string_value) {
+VALUE rb_cassandra_rb_dynamic_composite_fast_unpack(VALUE self, VALUE packed_string_value) {
   int index = 0;
   int message_length = RSTRING_LEN(packed_string_value);
   char *packed_string = (char *)RSTRING_PTR(packed_string_value);
@@ -55,13 +55,13 @@ VALUE rb_cassandra_dynamic_composite_fast_unpack(VALUE self, VALUE packed_string
   return Qnil;
 }
 
-void Init_cassandra_native(void) {
-  VALUE cassandra_module = rb_const_get(rb_cObject, rb_intern("Cassandra"));
+void Init_cassandra_rb_native(void) {
+  VALUE cassandra_module = rb_const_get(rb_cObject, rb_intern("CassandraRB"));
   VALUE cassandra_composite_class = rb_define_class_under(cassandra_module, "Composite", rb_cObject);
-  rb_define_method(cassandra_composite_class, "fast_unpack", rb_cassandra_composite_fast_unpack, 1);
+  rb_define_method(cassandra_composite_class, "fast_unpack", rb_cassandra_rb_composite_fast_unpack, 1);
 
   VALUE dynamic_composite = rb_const_get(cassandra_module, rb_intern("DynamicComposite"));
-  rb_define_method(dynamic_composite, "fast_unpack", rb_cassandra_dynamic_composite_fast_unpack, 1);
+  rb_define_method(dynamic_composite, "fast_unpack", rb_cassandra_rb_dynamic_composite_fast_unpack, 1);
 
   parts_ivar_id = rb_intern("@parts");
   types_ivar_id = rb_intern("@types");
