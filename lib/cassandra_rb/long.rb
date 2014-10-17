@@ -1,5 +1,5 @@
 
-class Cassandra
+class CassandraRB
   # A temporally-ordered Long class for use in Cassandra column names
   class Long < Comparable
 
@@ -44,7 +44,7 @@ class Cassandra
     end    
 
     def inspect
-      "<Cassandra::Long##{object_id} time: #{
+      "<CassandraRB::Long##{object_id} time: #{
         Time.at((to_i >> 12) / 1_000_000).utc.inspect
       }, usecs: #{
         (to_i >> 12) % 1_000_000

@@ -1,5 +1,5 @@
 # OrderedHash is namespaced to prevent conflicts with other implementations
-class Cassandra
+class CassandraRB
     class OrderedHashInt < Hash #:nodoc:
       def initialize(*args, &block)
         super

@@ -16,7 +16,7 @@ class Cassandra
   end
 
   def inspect
-    "#<Cassandra:#{object_id}, @keyspace=#{keyspace.inspect}, @schema={#{
+    "#<CassandraRB:#{object_id}, @keyspace=#{keyspace.inspect}, @schema={#{
       schema(false).map {|name, hash| ":#{name} => #{hash['type'].inspect}"}.join(', ')
     }}, @servers=#{servers.inspect}>"
   end

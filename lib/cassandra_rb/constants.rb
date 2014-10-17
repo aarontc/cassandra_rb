@@ -1,11 +1,11 @@
 
-class Cassandra
+class CassandraRB
   # A helper module you can include in your own class. Makes it easier 
   # to work with Cassandra subclasses.
   module Constants
-    include Cassandra::Consistency
+    include CassandraRB::Consistency
         
-    Long = Cassandra::Long
-    OrderedHash = Cassandra::OrderedHash
+    Long = CassandraRB::Long
+    OrderedHash = CassandraRB::OrderedHash
   end
 end

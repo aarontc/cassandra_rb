@@ -1,4 +1,4 @@
-class Cassandra
+class CassandraRB
   class Batch
     include Enumerable
 
