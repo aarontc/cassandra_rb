@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0f56e59-f9bb-485a-bc99-503a9f48538b" name="Default" comment="" />
+    <list default="true" id="f0f56e59-f9bb-485a-bc99-503a9f48538b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    </list>
     <ignored path="cassandra_rb.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -70,8 +72,8 @@
       <file leaf-file-name="mock.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/cassandra_rb/mock.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.06239168" vertical-offset="8802" max-vertical-offset="9756">
-              <caret line="487" column="84" selection-start-line="487" selection-start-column="84" selection-end-line="487" selection-end-column="84" />
+            <state vertical-scroll-proportion="0.779896" vertical-offset="8802" max-vertical-offset="9756">
+              <caret line="514" column="42" selection-start-line="514" selection-start-column="42" selection-end-line="514" selection-end-column="42" />
               <folding>
                 <element signature="e#25#70#0" expanded="true" />
                 <element signature="e#74#119#0" expanded="true" />
@@ -120,7 +122,7 @@
                 <element signature="e#15027#15310#0" expanded="true" />
                 <element signature="e#15316#15399#0" expanded="true" />
                 <element signature="e#15405#15875#0" expanded="true" />
-                <element signature="e#16656#16989#0" expanded="true" />
+                <element signature="e#15881#16650#0" expanded="true" />
                 <element signature="e#16995#17415#0" expanded="true" />
               </folding>
             </state>
@@ -223,7 +225,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -362,6 +364,9 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="f0f56e59-f9bb-485a-bc99-503a9f48538b" name="Default" comment="" />
@@ -827,8 +832,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/cassandra_rb/mock.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.06239168" vertical-offset="8802" max-vertical-offset="9756">
-          <caret line="487" column="84" selection-start-line="487" selection-start-column="84" selection-end-line="487" selection-end-column="84" />
+        <state vertical-scroll-proportion="0.779896" vertical-offset="8802" max-vertical-offset="9756">
+          <caret line="514" column="42" selection-start-line="514" selection-start-column="42" selection-end-line="514" selection-end-column="42" />
           <folding>
             <element signature="e#25#70#0" expanded="true" />
             <element signature="e#74#119#0" expanded="true" />
@@ -877,7 +882,7 @@
             <element signature="e#15027#15310#0" expanded="true" />
             <element signature="e#15316#15399#0" expanded="true" />
             <element signature="e#15405#15875#0" expanded="true" />
-            <element signature="e#16656#16989#0" expanded="true" />
+            <element signature="e#15881#16650#0" expanded="true" />
             <element signature="e#16995#17415#0" expanded="true" />
           </folding>
         </state>
