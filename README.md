@@ -1,3 +1,8 @@
+# Please do not use this gem!
+This gem has been forked to change the top-level namespace so the Datastax [ruby-driver](https://github.com/datastax/ruby-driver) can coexist in the same Ruby process. (To facilitate migrating old code incrementally.)
+
+Other than the namespace change, no other modifications are being made (or at least, planned at present.)
+
 # cassandra
 A Ruby client for the Cassandra distributed database.
 
