@@ -3,7 +3,7 @@ class CassandraRB
   # A temporally-ordered Long class for use in Cassandra column names
   class Long < Comparable
 
-    # FIXME Should unify with or subclass Cassandra::UUID
+    # FIXME Should unify with or subclass CassandraRB::UUID
     def initialize(bytes = nil)
       case bytes
       when self.class # Long

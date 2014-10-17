@@ -1,4 +1,4 @@
-class Cassandra
+class CassandraRB
   module Columns #:nodoc:
   end
 end

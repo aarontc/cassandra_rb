@@ -1,4 +1,4 @@
-class Cassandra
+class CassandraRB
   def self.DEFAULT_TRANSPORT_WRAPPER
     Thrift::BufferedTransport
   end

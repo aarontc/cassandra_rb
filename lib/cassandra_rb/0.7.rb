@@ -1,4 +1,4 @@
-class Cassandra
+class CassandraRB
   def self.VERSION
     "0.7"
   end

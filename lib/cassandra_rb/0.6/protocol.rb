@@ -1,5 +1,5 @@
 
-class Cassandra
+class CassandraRB
   # Inner methods for actually doing the Thrift calls
   module Protocol #:nodoc:
     private
