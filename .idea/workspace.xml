@@ -23,11 +23,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mock.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="cassandra_rb.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/cassandra_rb/cassandra_rb.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11088">
+              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rakefile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Rakefile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2083" max-vertical-offset="2682">
+              <caret line="178" column="0" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cassandra_mock_test.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/cassandra_mock_test.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+              <caret line="70" column="2" selection-start-line="70" selection-start-column="2" selection-end-line="70" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cassandra_test.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/cassandra_test.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.589286" vertical-offset="547" max-vertical-offset="3708">
+              <caret line="190" column="5" selection-start-line="190" selection-start-column="5" selection-end-line="190" selection-end-column="5" />
+              <folding>
+                <element signature="e#6391#6693#0" expanded="true" />
+                <element signature="e#6697#7243#0" expanded="true" />
+                <element signature="e#56684#56728#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mock.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/cassandra_rb/mock.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="972" max-vertical-offset="9756">
-              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            <state vertical-scroll-proportion="-0.06239168" vertical-offset="8802" max-vertical-offset="9756">
+              <caret line="487" column="84" selection-start-line="487" selection-start-column="84" selection-end-line="487" selection-end-column="84" />
               <folding>
                 <element signature="e#25#70#0" expanded="true" />
                 <element signature="e#74#119#0" expanded="true" />
@@ -76,7 +120,6 @@
                 <element signature="e#15027#15310#0" expanded="true" />
                 <element signature="e#15316#15399#0" expanded="true" />
                 <element signature="e#15405#15875#0" expanded="true" />
-                <element signature="e#15881#16650#0" expanded="true" />
                 <element signature="e#16656#16989#0" expanded="true" />
                 <element signature="e#16995#17415#0" expanded="true" />
               </folding>
@@ -84,54 +127,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ordered_hash.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/cassandra_rb/ordered_hash.rb">
+      <file leaf-file-name="columns.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/cassandra_rb/columns.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1926">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="24" max-vertical-offset="1116">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
               <folding>
-                <element signature="e#1413#1449#0" expanded="true" />
+                <element signature="e#271#419#0" expanded="true" />
+                <element signature="e#425#584#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="protocol.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/cassandra_rb/protocol.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="time.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/cassandra_rb/time.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cassandra_rb.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/cassandra_rb/cassandra_rb.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11088">
-              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rakefile" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Rakefile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6994992" vertical-offset="2083" max-vertical-offset="2682">
-              <caret line="187" column="3" selection-start-line="187" selection-start-column="3" selection-end-line="187" selection-end-column="3" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -209,6 +213,7 @@
         <option value="$PROJECT_DIR$/lib/cassandra_rb.rb" />
         <option value="$PROJECT_DIR$/Manifest" />
         <option value="$PROJECT_DIR$/Rakefile" />
+        <option value="$PROJECT_DIR$/test/cassandra_mock_test.rb" />
       </list>
     </option>
   </component>
@@ -273,29 +278,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cassandra_rb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cassandra_rb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="0.6" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gen-rb" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -660,14 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/cassandra_rb/columns.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1044">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/cassandra_rb/comparable.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="906">
@@ -733,65 +708,6 @@
             <element signature="e#1371#1496#0" expanded="true" />
             <element signature="e#1502#1567#0" expanded="true" />
             <element signature="e#1577#1835#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/cassandra_rb/mock.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="972" max-vertical-offset="9756">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding>
-            <element signature="e#25#70#0" expanded="true" />
-            <element signature="e#74#119#0" expanded="true" />
-            <element signature="e#258#549#0" expanded="true" />
-            <element signature="e#555#578#0" expanded="true" />
-            <element signature="e#584#628#0" expanded="true" />
-            <element signature="e#634#733#0" expanded="true" />
-            <element signature="e#739#827#0" expanded="true" />
-            <element signature="e#833#919#0" expanded="true" />
-            <element signature="e#925#1321#0" expanded="true" />
-            <element signature="e#1327#1509#0" expanded="true" />
-            <element signature="e#1515#1851#0" expanded="true" />
-            <element signature="e#1857#2008#0" expanded="true" />
-            <element signature="e#2014#2160#0" expanded="true" />
-            <element signature="e#2166#2557#0" expanded="true" />
-            <element signature="e#2563#2941#0" expanded="true" />
-            <element signature="e#2947#3576#0" expanded="true" />
-            <element signature="e#3582#3885#0" expanded="true" />
-            <element signature="e#3891#4217#0" expanded="true" />
-            <element signature="e#4223#5130#0" expanded="true" />
-            <element signature="e#5136#5581#0" expanded="true" />
-            <element signature="e#5587#5861#0" expanded="true" />
-            <element signature="e#5867#6060#0" expanded="true" />
-            <element signature="e#6066#6245#0" expanded="true" />
-            <element signature="e#6251#7591#0" expanded="true" />
-            <element signature="e#7597#7719#0" expanded="true" />
-            <element signature="e#7725#7870#0" expanded="true" />
-            <element signature="e#7876#8027#0" expanded="true" />
-            <element signature="e#8033#8720#0" expanded="true" />
-            <element signature="e#8726#9055#0" expanded="true" />
-            <element signature="e#9061#9304#0" expanded="true" />
-            <element signature="e#9310#9431#0" expanded="true" />
-            <element signature="e#9489#9666#0" expanded="true" />
-            <element signature="e#9722#10824#0" expanded="true" />
-            <element signature="e#10830#11694#0" expanded="true" />
-            <element signature="e#11700#12000#0" expanded="true" />
-            <element signature="e#12006#12049#0" expanded="true" />
-            <element signature="e#12055#12147#0" expanded="true" />
-            <element signature="e#12153#12367#0" expanded="true" />
-            <element signature="e#12373#12599#0" expanded="true" />
-            <element signature="e#12605#12696#0" expanded="true" />
-            <element signature="e#12715#12770#0" expanded="true" />
-            <element signature="e#12776#14252#0" expanded="true" />
-            <element signature="e#14258#14701#0" expanded="true" />
-            <element signature="e#14707#15021#0" expanded="true" />
-            <element signature="e#15027#15310#0" expanded="true" />
-            <element signature="e#15316#15399#0" expanded="true" />
-            <element signature="e#15405#15875#0" expanded="true" />
-            <element signature="e#15881#16650#0" expanded="true" />
-            <element signature="e#16656#16989#0" expanded="true" />
-            <element signature="e#16995#17415#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -872,9 +788,98 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6994992" vertical-offset="2083" max-vertical-offset="2682">
-          <caret line="187" column="3" selection-start-line="187" selection-start-column="3" selection-end-line="187" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2083" max-vertical-offset="2682">
+          <caret line="178" column="0" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/cassandra_mock_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <caret line="70" column="2" selection-start-line="70" selection-start-column="2" selection-end-line="70" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/cassandra_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.589286" vertical-offset="547" max-vertical-offset="3708">
+          <caret line="190" column="5" selection-start-line="190" selection-start-column="5" selection-end-line="190" selection-end-column="5" />
+          <folding>
+            <element signature="e#6391#6693#0" expanded="true" />
+            <element signature="e#6697#7243#0" expanded="true" />
+            <element signature="e#56684#56728#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/cassandra_rb/columns.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="24" max-vertical-offset="1116">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding>
+            <element signature="e#271#419#0" expanded="true" />
+            <element signature="e#425#584#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/cassandra_rb/mock.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.06239168" vertical-offset="8802" max-vertical-offset="9756">
+          <caret line="487" column="84" selection-start-line="487" selection-start-column="84" selection-end-line="487" selection-end-column="84" />
+          <folding>
+            <element signature="e#25#70#0" expanded="true" />
+            <element signature="e#74#119#0" expanded="true" />
+            <element signature="e#258#549#0" expanded="true" />
+            <element signature="e#555#578#0" expanded="true" />
+            <element signature="e#584#628#0" expanded="true" />
+            <element signature="e#634#733#0" expanded="true" />
+            <element signature="e#739#827#0" expanded="true" />
+            <element signature="e#833#919#0" expanded="true" />
+            <element signature="e#925#1321#0" expanded="true" />
+            <element signature="e#1327#1509#0" expanded="true" />
+            <element signature="e#1515#1851#0" expanded="true" />
+            <element signature="e#1857#2008#0" expanded="true" />
+            <element signature="e#2014#2160#0" expanded="true" />
+            <element signature="e#2166#2557#0" expanded="true" />
+            <element signature="e#2563#2941#0" expanded="true" />
+            <element signature="e#2947#3576#0" expanded="true" />
+            <element signature="e#3582#3885#0" expanded="true" />
+            <element signature="e#3891#4217#0" expanded="true" />
+            <element signature="e#4223#5130#0" expanded="true" />
+            <element signature="e#5136#5581#0" expanded="true" />
+            <element signature="e#5587#5861#0" expanded="true" />
+            <element signature="e#5867#6060#0" expanded="true" />
+            <element signature="e#6066#6245#0" expanded="true" />
+            <element signature="e#6251#7591#0" expanded="true" />
+            <element signature="e#7597#7719#0" expanded="true" />
+            <element signature="e#7725#7870#0" expanded="true" />
+            <element signature="e#7876#8027#0" expanded="true" />
+            <element signature="e#8033#8720#0" expanded="true" />
+            <element signature="e#8726#9055#0" expanded="true" />
+            <element signature="e#9061#9304#0" expanded="true" />
+            <element signature="e#9310#9431#0" expanded="true" />
+            <element signature="e#9489#9666#0" expanded="true" />
+            <element signature="e#9722#10824#0" expanded="true" />
+            <element signature="e#10830#11694#0" expanded="true" />
+            <element signature="e#11700#12000#0" expanded="true" />
+            <element signature="e#12006#12049#0" expanded="true" />
+            <element signature="e#12055#12147#0" expanded="true" />
+            <element signature="e#12153#12367#0" expanded="true" />
+            <element signature="e#12373#12599#0" expanded="true" />
+            <element signature="e#12605#12696#0" expanded="true" />
+            <element signature="e#12715#12770#0" expanded="true" />
+            <element signature="e#12776#14252#0" expanded="true" />
+            <element signature="e#14258#14701#0" expanded="true" />
+            <element signature="e#14707#15021#0" expanded="true" />
+            <element signature="e#15027#15310#0" expanded="true" />
+            <element signature="e#15316#15399#0" expanded="true" />
+            <element signature="e#15405#15875#0" expanded="true" />
+            <element signature="e#16656#16989#0" expanded="true" />
+            <element signature="e#16995#17415#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
